@@ -10,22 +10,37 @@ import SwiftUI
 struct ToDoView: View {
     
     @State var veggies: [String] = ["brussel sprouts", "collards", "kale", "broccoli"]
-    
+
     @State var fruits: [String] = ["Rombatan", "StarFruit", "DragonFruit"]
-    
+
     @State var meatDairy: [String] = ["Beef", "Chicken", "Milk"]
+    
+    @State var vm = CoreDataViewModel()
+    
+    @State var textEditor: String = ""
     
     var body: some View {
         NavigationView {
-            List {
-                Section (
-                    
-                    header:
-                        HStack {
-                            Text("FRUITS")
-                        Image(systemName: "apple.logo")
-                        }
-                ) {
+            VStack {
+                HStack {
+                Text("Grocery List")
+                        .fontWeight(.bold)
+                    NavigationLink(destination: CoreDataBootcamp()) {
+                        Spacer()
+                        Text("Add")
+                            .foregroundColor(.black)
+                            .fontWeight(.bold)
+                    }
+                }
+                
+                List {
+                    Section (
+                        header:
+                            HStack {
+                                Text("FRUITS")
+                                Image(systemName: "apple.logo")
+                            }
+                    ) {
                         ForEach(fruits, id: \.self) { fruit in
                             Text(fruit.capitalized)
                         }
@@ -33,70 +48,60 @@ struct ToDoView: View {
                         .onDelete(perform: delete)
                         .onMove(perform: move)
                     }
-                Section (
-                    header:
-                    HStack {
-                        Text("VEGGIES")
-                    Image(systemName: "carrot.fill")
-                    }
-                
-                ) {
+                    Section (
+                        header:
+                            HStack {
+                                Text("VEGGIES")
+                                Image(systemName: "carrot.fill")
+                            }
+                        
+                    ) {
                         ForEach(veggies, id: \.self) {
                             veggies in Text(veggies.capitalized)
                         }
                         .onDelete(perform: delete)
                         .onMove(perform: move)
                     }
-                Section (
-                    header:
-                    HStack {
-                        Text("MEAT/DAIRY")
-                    Image(systemName: "fork.knife")
-                    }
-                
-                ) {
+                    Section (
+                        header:
+                            HStack {
+                                Text("MEAT/DAIRY")
+                                Image(systemName: "fork.knife")
+                            }
+                        
+                    ) {
                         ForEach(meatDairy, id: \.self) {
                             meat in Text(meat.capitalized)
                         }
                         .onDelete(perform: delete)
                         .onMove(perform: move)
                     }
+                }
+                .accentColor(.purple)
             }
-            //.listStyle(GroupedListStyle())
-            .navigationTitle("Grocery List")
-            .navigationBarItems(leading: EditButton(), trailing: addButton)
+            .padding()
+            .background(
+                LinearGradient(colors: [.purple, .blue], startPoint: .top, endPoint: .bottom))
         }
         
-        .accentColor(.purple)
-        }
-    var addButton: some View {
-        Button("+", action: {
-            add()
-        })
     }
+    
     
     func delete(indexSet: IndexSet) {
         fruits.remove(atOffsets: indexSet)
         veggies.remove(atOffsets: indexSet)
         meatDairy.remove(atOffsets: indexSet)
-         
-        }
+        
+    }
     func move(indices: IndexSet, newOffset: Int) {
         fruits.move(fromOffsets: indices, toOffset: newOffset)
         veggies.move(fromOffsets: indices, toOffset: newOffset)
         meatDairy.move(fromOffsets: indices, toOffset: newOffset)
-
-        
     }
-    func add()
-    {
-        fruits.append("Soursop")
-    }
+    struct ToDoView_Previews: PreviewProvider {
+        static var previews: some View {
+            ToDoView()
         }
-
-
-struct ToDoView_Previews: PreviewProvider {
-    static var previews: some View {
-        ToDoView()
     }
 }
+    

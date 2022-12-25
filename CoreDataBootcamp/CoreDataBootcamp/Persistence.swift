@@ -1,8 +1,8 @@
 //
 //  Persistence.swift
-//  SwiftUIToDo
+//  CoreDataBootcamp
 //
-//  Created by sade on 12/20/22.
+//  Created by sade on 12/23/22.
 //
 
 import CoreData
@@ -13,9 +13,9 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-//            let newItem = Item(context: viewContext)
-//            newItem.timestamp = Date()
+        for i in 0..<10 {
+            let newProfile = ProfileEntity(context: viewContext)
+            newProfile.name = "Profile \(i)"
         }
         do {
             try viewContext.save()
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "SwiftUIToDo")
+        container = NSPersistentContainer(name: "CoreDataBootcamp")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

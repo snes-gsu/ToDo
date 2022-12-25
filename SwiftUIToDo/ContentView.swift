@@ -17,13 +17,7 @@ struct ContentView: View {
                     Image(systemName:"house")
                     Text("home")
                 }
-            
             ToDoView()
-                .tabItem {
-                    Image(systemName: "list.clipboard")
-                    Text("Grocery List")
-            }
-            TaskView()
                 .tabItem {
                     Image(systemName: "list.dash")
                     Text("Tasks")
@@ -33,17 +27,23 @@ struct ContentView: View {
                     Image(systemName: "calendar")
                     Text("Calendar")
                 }
-            
-            }
-            
         }
-       
+        
+        Spacer()
+            .frame(height: 30)
+            .frame(maxWidth: .infinity)
+            .foregroundColor(.black)
+            .background(
+                LinearGradient(colors: [.purple, .blue], startPoint: .top, endPoint: .bottom))
+        
+        
     }
     
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

@@ -7,38 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE09A1942954D57A000DBFC3 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09A1932954D57A000DBFC3 /* AddView.swift */; };
-		CE09A1982954D668000DBFC3 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09A1972954D668000DBFC3 /* NotesView.swift */; };
-		CE1E2E3829524D3800289FA3 /* SwiftUIToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E2E3729524D3800289FA3 /* SwiftUIToDoApp.swift */; };
-		CE1E2E3A29524D3800289FA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E2E3929524D3800289FA3 /* ContentView.swift */; };
-		CE1E2E3C29524D3B00289FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1E2E3B29524D3B00289FA3 /* Assets.xcassets */; };
-		CE1E2E3F29524D3B00289FA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1E2E3E29524D3B00289FA3 /* Preview Assets.xcassets */; };
-		CE1E2E4129524D3B00289FA3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E2E4029524D3B00289FA3 /* Persistence.swift */; };
-		CE1E2E4B2952570800289FA3 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1E2E4A2952570800289FA3 /* ToDoView.swift */; };
-		CE2B20E029528F5400E2E031 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B20DF29528F5400E2E031 /* HomeView.swift */; };
-		CE822D472953F6F600A42570 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE822D462953F6F600A42570 /* CalendarView.swift */; };
-		CE8910D229567FD0003D20E9 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8910D129567FD0003D20E9 /* CoreDataBootcamp.swift */; };
-		CE8910D529568135003D20E9 /* TaskContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE8910D329568135003D20E9 /* TaskContainer.xcdatamodeld */; };
+		CEA7244F2955F04D000182BC /* CoreDataBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7244E2955F04D000182BC /* CoreDataBootcampApp.swift */; };
+		CEA724512955F04D000182BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA724502955F04D000182BC /* ContentView.swift */; };
+		CEA724532955F04F000182BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA724522955F04F000182BC /* Assets.xcassets */; };
+		CEA724562955F050000182BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA724552955F050000182BC /* Preview Assets.xcassets */; };
+		CEA724582955F050000182BC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA724572955F050000182BC /* Persistence.swift */; };
+		CEA7245B2955F050000182BC /* CoreDataBootcamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEA724592955F050000182BC /* CoreDataBootcamp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE09A1932954D57A000DBFC3 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
-		CE09A1972954D668000DBFC3 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
-		CE1E2E3429524D3800289FA3 /* SwiftUIToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1E2E3729524D3800289FA3 /* SwiftUIToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoApp.swift; sourceTree = "<group>"; };
-		CE1E2E3929524D3800289FA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CE1E2E3B29524D3B00289FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE1E2E3E29524D3B00289FA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CE1E2E4029524D3B00289FA3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		CE1E2E4A2952570800289FA3 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
-		CE2B20DF29528F5400E2E031 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		CE822D462953F6F600A42570 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		CE8910D129567FD0003D20E9 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
-		CE8910D429568135003D20E9 /* TaskContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskContainer.xcdatamodel; sourceTree = "<group>"; };
+		CEA7244B2955F04D000182BC /* CoreDataBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA7244E2955F04D000182BC /* CoreDataBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcampApp.swift; sourceTree = "<group>"; };
+		CEA724502955F04D000182BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA724522955F04F000182BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA724552955F050000182BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA724572955F050000182BC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CEA7245A2955F050000182BC /* CoreDataBootcamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataBootcamp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE1E2E3129524D3800289FA3 /* Frameworks */ = {
+		CEA724482955F04D000182BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,45 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE1E2E2B29524D3800289FA3 = {
+		CEA724422955F04D000182BC = {
 			isa = PBXGroup;
 			children = (
-				CE1E2E3629524D3800289FA3 /* SwiftUIToDo */,
-				CE1E2E3529524D3800289FA3 /* Products */,
+				CEA7244D2955F04D000182BC /* CoreDataBootcamp */,
+				CEA7244C2955F04D000182BC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE1E2E3529524D3800289FA3 /* Products */ = {
+		CEA7244C2955F04D000182BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE1E2E3429524D3800289FA3 /* SwiftUIToDo.app */,
+				CEA7244B2955F04D000182BC /* CoreDataBootcamp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE1E2E3629524D3800289FA3 /* SwiftUIToDo */ = {
+		CEA7244D2955F04D000182BC /* CoreDataBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				CE1E2E3729524D3800289FA3 /* SwiftUIToDoApp.swift */,
-				CE8910D129567FD0003D20E9 /* CoreDataBootcamp.swift */,
-				CE8910D329568135003D20E9 /* TaskContainer.xcdatamodeld */,
-				CE1E2E3929524D3800289FA3 /* ContentView.swift */,
-				CE1E2E4A2952570800289FA3 /* ToDoView.swift */,
-				CE2B20DF29528F5400E2E031 /* HomeView.swift */,
-				CE09A1932954D57A000DBFC3 /* AddView.swift */,
-				CE822D462953F6F600A42570 /* CalendarView.swift */,
-				CE1E2E3B29524D3B00289FA3 /* Assets.xcassets */,
-				CE1E2E4029524D3B00289FA3 /* Persistence.swift */,
-				CE1E2E3D29524D3B00289FA3 /* Preview Content */,
-				CE09A1972954D668000DBFC3 /* NotesView.swift */,
+				CEA7244E2955F04D000182BC /* CoreDataBootcampApp.swift */,
+				CEA724502955F04D000182BC /* ContentView.swift */,
+				CEA724522955F04F000182BC /* Assets.xcassets */,
+				CEA724572955F050000182BC /* Persistence.swift */,
+				CEA724592955F050000182BC /* CoreDataBootcamp.xcdatamodeld */,
+				CEA724542955F050000182BC /* Preview Content */,
 			);
-			path = SwiftUIToDo;
+			path = CoreDataBootcamp;
 			sourceTree = "<group>";
 		};
-		CE1E2E3D29524D3B00289FA3 /* Preview Content */ = {
+		CEA724542955F050000182BC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CE1E2E3E29524D3B00289FA3 /* Preview Assets.xcassets */,
+				CEA724552955F050000182BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -94,39 +76,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE1E2E3329524D3800289FA3 /* SwiftUIToDo */ = {
+		CEA7244A2955F04D000182BC /* CoreDataBootcamp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE1E2E4729524D3B00289FA3 /* Build configuration list for PBXNativeTarget "SwiftUIToDo" */;
+			buildConfigurationList = CEA7245E2955F050000182BC /* Build configuration list for PBXNativeTarget "CoreDataBootcamp" */;
 			buildPhases = (
-				CE1E2E3029524D3800289FA3 /* Sources */,
-				CE1E2E3129524D3800289FA3 /* Frameworks */,
-				CE1E2E3229524D3800289FA3 /* Resources */,
+				CEA724472955F04D000182BC /* Sources */,
+				CEA724482955F04D000182BC /* Frameworks */,
+				CEA724492955F04D000182BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIToDo;
-			productName = SwiftUIToDo;
-			productReference = CE1E2E3429524D3800289FA3 /* SwiftUIToDo.app */;
+			name = CoreDataBootcamp;
+			productName = CoreDataBootcamp;
+			productReference = CEA7244B2955F04D000182BC /* CoreDataBootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE1E2E2C29524D3800289FA3 /* Project object */ = {
+		CEA724432955F04D000182BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					CE1E2E3329524D3800289FA3 = {
+					CEA7244A2955F04D000182BC = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = CE1E2E2F29524D3800289FA3 /* Build configuration list for PBXProject "SwiftUIToDo" */;
+			buildConfigurationList = CEA724462955F04D000182BC /* Build configuration list for PBXProject "CoreDataBootcamp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,50 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = CE1E2E2B29524D3800289FA3;
-			productRefGroup = CE1E2E3529524D3800289FA3 /* Products */;
+			mainGroup = CEA724422955F04D000182BC;
+			productRefGroup = CEA7244C2955F04D000182BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE1E2E3329524D3800289FA3 /* SwiftUIToDo */,
+				CEA7244A2955F04D000182BC /* CoreDataBootcamp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE1E2E3229524D3800289FA3 /* Resources */ = {
+		CEA724492955F04D000182BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1E2E3F29524D3B00289FA3 /* Preview Assets.xcassets in Resources */,
-				CE1E2E3C29524D3B00289FA3 /* Assets.xcassets in Resources */,
+				CEA724562955F050000182BC /* Preview Assets.xcassets in Resources */,
+				CEA724532955F04F000182BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE1E2E3029524D3800289FA3 /* Sources */ = {
+		CEA724472955F04D000182BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8910D529568135003D20E9 /* TaskContainer.xcdatamodeld in Sources */,
-				CE822D472953F6F600A42570 /* CalendarView.swift in Sources */,
-				CE09A1982954D668000DBFC3 /* NotesView.swift in Sources */,
-				CE8910D229567FD0003D20E9 /* CoreDataBootcamp.swift in Sources */,
-				CE1E2E4129524D3B00289FA3 /* Persistence.swift in Sources */,
-				CE1E2E3A29524D3800289FA3 /* ContentView.swift in Sources */,
-				CE09A1942954D57A000DBFC3 /* AddView.swift in Sources */,
-				CE1E2E3829524D3800289FA3 /* SwiftUIToDoApp.swift in Sources */,
-				CE2B20E029528F5400E2E031 /* HomeView.swift in Sources */,
-				CE1E2E4B2952570800289FA3 /* ToDoView.swift in Sources */,
+				CEA724582955F050000182BC /* Persistence.swift in Sources */,
+				CEA7245B2955F050000182BC /* CoreDataBootcamp.xcdatamodeld in Sources */,
+				CEA724512955F04D000182BC /* ContentView.swift in Sources */,
+				CEA7244F2955F04D000182BC /* CoreDataBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CE1E2E4529524D3B00289FA3 /* Debug */ = {
+		CEA7245C2955F050000182BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		CE1E2E4629524D3B00289FA3 /* Release */ = {
+		CEA7245D2955F050000182BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,14 +267,14 @@
 			};
 			name = Release;
 		};
-		CE1E2E4829524D3B00289FA3 /* Debug */ = {
+		CEA7245F2955F050000182BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIToDo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataBootcamp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RFBW7F5HY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftUIToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreDataBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,14 +296,14 @@
 			};
 			name = Debug;
 		};
-		CE1E2E4929524D3B00289FA3 /* Release */ = {
+		CEA724602955F050000182BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIToDo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataBootcamp/Preview Content\"";
 				DEVELOPMENT_TEAM = 4RFBW7F5HY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -341,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftUIToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CoreDataBootcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,20 +328,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE1E2E2F29524D3800289FA3 /* Build configuration list for PBXProject "SwiftUIToDo" */ = {
+		CEA724462955F04D000182BC /* Build configuration list for PBXProject "CoreDataBootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE1E2E4529524D3B00289FA3 /* Debug */,
-				CE1E2E4629524D3B00289FA3 /* Release */,
+				CEA7245C2955F050000182BC /* Debug */,
+				CEA7245D2955F050000182BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE1E2E4729524D3B00289FA3 /* Build configuration list for PBXNativeTarget "SwiftUIToDo" */ = {
+		CEA7245E2955F050000182BC /* Build configuration list for PBXNativeTarget "CoreDataBootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE1E2E4829524D3B00289FA3 /* Debug */,
-				CE1E2E4929524D3B00289FA3 /* Release */,
+				CEA7245F2955F050000182BC /* Debug */,
+				CEA724602955F050000182BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -373,17 +349,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CE8910D329568135003D20E9 /* TaskContainer.xcdatamodeld */ = {
+		CEA724592955F050000182BC /* CoreDataBootcamp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CE8910D429568135003D20E9 /* TaskContainer.xcdatamodel */,
+				CEA7245A2955F050000182BC /* CoreDataBootcamp.xcdatamodel */,
 			);
-			currentVersion = CE8910D429568135003D20E9 /* TaskContainer.xcdatamodel */;
-			path = TaskContainer.xcdatamodeld;
+			currentVersion = CEA7245A2955F050000182BC /* CoreDataBootcamp.xcdatamodel */;
+			path = CoreDataBootcamp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = CE1E2E2C29524D3800289FA3 /* Project object */;
+	rootObject = CEA724432955F04D000182BC /* Project object */;
 }
